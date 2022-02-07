@@ -59,9 +59,16 @@
     </ul>
   </div>
 </nav>
-
+     <style>
+body {
+  background-image: url('BG.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
  <br><br> <center><form class="form" action="" method="post">
-        <h1 class="login-title">Registration</h1>
+        <h1 class="login-title" style="color:white">Registration</h1>
         <input type="text" class="login-input" name="username" placeholder="Username" required />
         <br><br>
         <input type="text" class="login-input" name="email" placeholder="Email Address">
@@ -69,7 +76,7 @@
         <input type="password" class="login-input" name="password" placeholder="Password">
         <br><br>
         <input type="submit" name="submit" value="Register" class="btn btn-success"/>
-        <p class="link">Already have an account? <a href="login.php">Login here</a></p>
+        <p class="link" style="color:white">Already have an account? <a href="login.php">Login here</a></p>
     </form></center>
 <?php
     }
