@@ -31,10 +31,17 @@ include("auth_session.php");
   </div>
 </nav>
 <div id="header">
+   <style>
+
+
+
+   </style>
     <img id="logo" src="https://static.wikia.nocookie.net/da-hood-roblox/images/d/d6/Passive.png" alt="Avatar" style="border:1px solid black;">
 </div>
 
 <h3>Ahoy, <?php echo $_SESSION['username']; ?>!</h3>
+You are not banned.
+<a href="http://cssbroooo.rf.gd/RandomStockRevival/logout.php">Logout</a>
 
 
 
