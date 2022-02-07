@@ -56,10 +56,18 @@
     </ul>
   </div>
 </nav>
+        <style>
+body {
+  background-image: url('BG.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
 
  <br>
  <br><center><form class="form" method="post" name="login">
-        <h1 class="login-title">Login</h1>
+        <h1 class="login-title"style="color:white">Login</h1>
         <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true"/>
         <br>
         <br>
@@ -67,7 +75,7 @@
         <br>
         <br>
         <input type="submit" value="Login" name="submit" class="btn btn-success"/><br>
-        <p class="link">Don't have an account? <a href="register.php">Register Now</a>.</p>
+        <p class="link" style="color:white">Don't have an account? <a href="register.php">Register Now!</a></p>
 
   </form></center>
 <?php
